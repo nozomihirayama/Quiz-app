@@ -26,6 +26,24 @@ const quiz = [
     'リク'            
      ],
      correct: 'ニナ'
+    }, {
+        question: 'Blackpinkの中でタイ人のメンバーは次のうち誰？',
+        answers: [
+    'ジェニー',
+    'リサ',
+    'ロゼ',
+    'ジス'            
+     ],
+     correct: 'リサ'
+    }, {
+        question: 'TWICEのリーダーは次のうち誰？',
+        answers: [
+    'マコ',
+    'チェヨン',
+    'ジヒョ',
+    'サナ'            
+     ],
+     correct: 'ジヒョ'
     }
 ];
 
