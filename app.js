@@ -56,7 +56,7 @@ const buttonLength = $button.length;
 
 //クイズの問題文、選択肢を定義
 const setupQuiz = () => {
-    document.getElementById('js-question').textContent = quiz[quizIndex].question
+    document.getElementById('js-question').textContent = '第' + [quizIndex + 1] + '問 ' + quiz[quizIndex].question
     let buttonIndex = 0;
     while(buttonIndex < buttonLength){
         $button[buttonIndex].textContent = quiz[quizIndex].answers[buttonIndex];
